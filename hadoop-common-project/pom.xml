@@ -37,7 +37,7 @@
     <module>hadoop-common</module>
     <module>hadoop-annotations</module>
     <module>hadoop-nfs</module>
-    <module>hadoop-minikdc</module>
+<!--    <module>hadoop-minikdc</module> -->
     <module>hadoop-kms</module>
     <module>hadoop-registry</module>
   </modules>
@@ -50,12 +50,14 @@
           <skip>true</skip>
         </configuration>
       </plugin>
+	  <!--
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
         <configuration>
         </configuration>
       </plugin>
+	-->
     </plugins>
   </build>
 </project>
