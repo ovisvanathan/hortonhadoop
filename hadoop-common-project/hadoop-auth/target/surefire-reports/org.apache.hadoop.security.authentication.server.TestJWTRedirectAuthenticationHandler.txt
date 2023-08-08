@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.security.authentication.server.TestJWTRedirectAuthenticationHandler
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.521 s - in org.apache.hadoop.security.authentication.server.TestJWTRedirectAuthenticationHandler

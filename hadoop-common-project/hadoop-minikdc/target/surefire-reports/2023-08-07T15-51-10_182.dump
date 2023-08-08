@@ -1,0 +1,76 @@
+# Created at 2023-08-07T15:52:29.080
+Boot Manifest-JAR contains absolute paths in classpath D:\java\projects\hadoop\hadoop-common-project\hadoop-minikdc\target\test-classes
+java.lang.IllegalArgumentException: 'other' has different root
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:420)
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:42)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.toClasspathElementUri(JarManifestForkConfiguration.java:153)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.createJar(JarManifestForkConfiguration.java:120)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.resolveClasspath(JarManifestForkConfiguration.java:75)
+	at org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration.createCommandLine(DefaultForkConfiguration.java:147)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:580)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:116)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:445)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:421)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-08-07T15:52:29.081
+Boot Manifest-JAR contains absolute paths in classpath D:\java\projects\hadoop\hadoop-common-project\hadoop-minikdc\target\classes
+java.lang.IllegalArgumentException: 'other' has different root
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:420)
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:42)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.toClasspathElementUri(JarManifestForkConfiguration.java:153)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.createJar(JarManifestForkConfiguration.java:120)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.resolveClasspath(JarManifestForkConfiguration.java:75)
+	at org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration.createCommandLine(DefaultForkConfiguration.java:147)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:580)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:116)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:445)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:421)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-08-07T15:52:34.438
+Boot Manifest-JAR contains absolute paths in classpath D:\java\projects\hadoop\hadoop-common-project\hadoop-minikdc\target\test-classes
+java.lang.IllegalArgumentException: 'other' has different root
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:420)
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:42)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.toClasspathElementUri(JarManifestForkConfiguration.java:153)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.createJar(JarManifestForkConfiguration.java:120)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.resolveClasspath(JarManifestForkConfiguration.java:75)
+	at org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration.createCommandLine(DefaultForkConfiguration.java:147)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:580)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:116)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:445)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:421)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-08-07T15:52:34.439
+Boot Manifest-JAR contains absolute paths in classpath D:\java\projects\hadoop\hadoop-common-project\hadoop-minikdc\target\classes
+java.lang.IllegalArgumentException: 'other' has different root
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:420)
+	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:42)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.toClasspathElementUri(JarManifestForkConfiguration.java:153)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.createJar(JarManifestForkConfiguration.java:120)
+	at org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration.resolveClasspath(JarManifestForkConfiguration.java:75)
+	at org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration.createCommandLine(DefaultForkConfiguration.java:147)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:580)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:116)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:445)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:421)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+

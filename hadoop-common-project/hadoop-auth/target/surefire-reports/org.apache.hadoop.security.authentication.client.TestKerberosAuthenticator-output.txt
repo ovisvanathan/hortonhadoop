@@ -1,0 +1,427 @@
+2023-08-07 15:54:50,571 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:50,572 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:50,574 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:50,574 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:50,575 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:50,575 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:50,575 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:50,575 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:50,575 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:50,575 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:50,575 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:50,575 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:50,853 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:54:50,907 INFO  log - Logging initialized @1358ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-08-07 15:54:51,040 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:54:51,128 INFO  MultiSchemeAuthenticationHandler - multi-scheme-auth-handler.schemes : negotiate
+2023-08-07 15:54:51,129 INFO  MultiSchemeAuthenticationHandler - multi-scheme-auth-handler.schemes.negotiate.handler : kerberos
+2023-08-07 15:54:51,129 INFO  MultiSchemeAuthenticationHandler - kerberos.principal : HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:51,129 INFO  MultiSchemeAuthenticationHandler - kerberos.keytab : D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504
+2023-08-07 15:54:51,129 INFO  MultiSchemeAuthenticationHandler - type : multi-scheme
+2023-08-07 15:54:51,129 INFO  MultiSchemeAuthenticationHandler - kerberos.name.rules : RULE:[1:$1@$0](.*@EXAMPLE.COM)s/@.*//
+
+2023-08-07 15:54:51,146 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:51,205 INFO  MultiSchemeAuthenticationHandler - Successfully initialized Authentication handler of type org.apache.hadoop.security.authentication.server.KerberosAuthenticationHandler
+2023-08-07 15:54:51,205 INFO  MultiSchemeAuthenticationHandler - Successfully initialized MultiSchemeAuthenticationHandler
+2023-08-07 15:54:51,210 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@4b466158{/foo,null,AVAILABLE}
+2023-08-07 15:54:51,256 INFO  AbstractConnector - Started ServerConnector@7cc330d0{HTTP/1.1, (http/1.1)}{localhost:55750}
+2023-08-07 15:54:51,257 INFO  Server - Started @1708ms
+Running embedded servlet container at: http://localhost:55750
+2023-08-07 15:54:51,631 INFO  AbstractConnector - Stopped ServerConnector@7cc330d0{HTTP/1.1, (http/1.1)}{localhost:55750}
+2023-08-07 15:54:51,632 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@4b466158{/foo,null,STOPPED}
+2023-08-07 15:54:51,637 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:54:52,653 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:54:52,661 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:52,661 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:52,661 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:52,661 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:52,661 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:52,661 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:52,661 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:52,664 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:52,664 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:52,664 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:52,664 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:52,665 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:52,675 INFO  MiniKdc - MiniKdc started.
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:54:52,795 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:54:52,802 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:54:52,855 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403892852,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:54:52,873 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:54:52,878 INFO  MultiSchemeAuthenticationHandler - multi-scheme-auth-handler.schemes : negotiate
+2023-08-07 15:54:52,878 INFO  MultiSchemeAuthenticationHandler - multi-scheme-auth-handler.schemes.negotiate.handler : kerberos
+2023-08-07 15:54:52,878 INFO  MultiSchemeAuthenticationHandler - kerberos.principal : HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:52,878 INFO  MultiSchemeAuthenticationHandler - kerberos.keytab : D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504
+2023-08-07 15:54:52,878 INFO  MultiSchemeAuthenticationHandler - type : multi-scheme
+2023-08-07 15:54:52,878 INFO  MultiSchemeAuthenticationHandler - kerberos.name.rules : RULE:[1:$1@$0](.*@EXAMPLE.COM)s/@.*//
+
+2023-08-07 15:54:52,879 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:52,880 INFO  MultiSchemeAuthenticationHandler - Successfully initialized Authentication handler of type org.apache.hadoop.security.authentication.server.KerberosAuthenticationHandler
+2023-08-07 15:54:52,880 INFO  MultiSchemeAuthenticationHandler - Successfully initialized MultiSchemeAuthenticationHandler
+2023-08-07 15:54:52,880 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@8fc345f{/foo,null,AVAILABLE}
+2023-08-07 15:54:52,887 INFO  AbstractConnector - Started ServerConnector@3dfe559c{HTTP/1.1, (http/1.1)}{localhost:55756}
+2023-08-07 15:54:52,888 INFO  Server - Started @3339ms
+Running embedded servlet container at: http://localhost:55756
+2023-08-07 15:54:53,297 ERROR KdcRequest - Principal: HTTP/kubernetes.docker.internal@EXAMPLE.COM is not known
+2023-08-07 15:54:53,305 ERROR KdcRequest - Principal: HTTP/kubernetes.docker.internal@EXAMPLE.COM is not known
+2023-08-07 15:54:53,307 WARN  HttpAuthenticator - NEGOTIATE authentication error: No valid credentials provided (Mechanism level: No valid credentials provided (Mechanism level: Server not found in Kerberos database (7) - Server not found in Kerberos database))
+2023-08-07 15:54:53,317 INFO  AbstractConnector - Stopped ServerConnector@3dfe559c{HTTP/1.1, (http/1.1)}{localhost:55756}
+2023-08-07 15:54:53,318 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@8fc345f{/foo,null,STOPPED}
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:54:53,321 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:54:54,331 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:54:54,341 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:54,341 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:54,341 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:54,341 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:54,341 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:54,341 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:54,342 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:54,342 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:54,342 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:54,342 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:54,342 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:54,342 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:54,348 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:54:54,356 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:54:54,360 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:54,361 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@4feca43{/foo,null,AVAILABLE}
+2023-08-07 15:54:54,368 INFO  AbstractConnector - Started ServerConnector@7f3a94d3{HTTP/1.1, (http/1.1)}{localhost:55762}
+2023-08-07 15:54:54,368 INFO  Server - Started @4820ms
+Running embedded servlet container at: http://localhost:55762
+2023-08-07 15:54:54,375 INFO  AbstractConnector - Stopped ServerConnector@7f3a94d3{HTTP/1.1, (http/1.1)}{localhost:55762}
+2023-08-07 15:54:54,375 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@4feca43{/foo,null,STOPPED}
+2023-08-07 15:54:54,377 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:54:55,383 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:54:55,385 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:55,385 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:55,385 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:55,386 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:55,386 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:55,386 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:55,386 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:55,386 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:55,386 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:55,387 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:55,387 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:55,387 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:55,397 INFO  MiniKdc - MiniKdc started.
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:54:55,417 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:54:55,418 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:54:55,431 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403895429,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:54:55,437 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:54:55,441 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:55,442 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@1480c64d{/foo,null,AVAILABLE}
+2023-08-07 15:54:55,453 INFO  AbstractConnector - Started ServerConnector@24541c99{HTTP/1.1, (http/1.1)}{localhost:55768}
+2023-08-07 15:54:55,453 INFO  Server - Started @5904ms
+Running embedded servlet container at: http://localhost:55768
+2023-08-07 15:54:55,473 ERROR KdcRequest - Principal: HTTP/kubernetes.docker.internal@EXAMPLE.COM is not known
+2023-08-07 15:54:55,483 ERROR KdcRequest - Principal: HTTP/kubernetes.docker.internal@EXAMPLE.COM is not known
+2023-08-07 15:54:55,484 WARN  HttpAuthenticator - NEGOTIATE authentication error: No valid credentials provided (Mechanism level: No valid credentials provided (Mechanism level: Server not found in Kerberos database (7) - Server not found in Kerberos database))
+2023-08-07 15:54:55,489 INFO  AbstractConnector - Stopped ServerConnector@24541c99{HTTP/1.1, (http/1.1)}{localhost:55768}
+2023-08-07 15:54:55,490 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@1480c64d{/foo,null,STOPPED}
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:54:55,492 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:54:56,496 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:54:56,499 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:56,499 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:56,499 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:56,499 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:56,499 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:56,499 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:56,499 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:56,499 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:56,499 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:56,500 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:56,500 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:56,500 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:56,505 INFO  MiniKdc - MiniKdc started.
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:54:56,549 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:54:56,550 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:54:56,563 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403896562,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:54:56,569 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:54:56,576 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:56,577 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@7a8bb4b5{/foo,null,AVAILABLE}
+2023-08-07 15:54:56,590 INFO  AbstractConnector - Started ServerConnector@62d9347f{HTTP/1.1, (http/1.1)}{localhost:55776}
+2023-08-07 15:54:56,591 INFO  Server - Started @7042ms
+Running embedded servlet container at: http://localhost:55776
+2023-08-07 15:54:56,641 INFO  TgsRequest - TGS_REQ ISSUE: authtime 1691403896636,client@EXAMPLE.COM for HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:54:56,731 INFO  AbstractConnector - Stopped ServerConnector@62d9347f{HTTP/1.1, (http/1.1)}{localhost:55776}
+2023-08-07 15:54:56,731 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@7a8bb4b5{/foo,null,STOPPED}
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:54:56,735 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:54:57,738 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:54:57,741 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:57,741 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:57,741 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:57,741 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:57,742 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:57,742 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:57,742 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:57,742 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:57,742 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:57,742 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:57,742 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:57,742 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:57,750 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:54:57,763 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:54:58,769 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:54:58,772 INFO  MiniKdc - Configuration:
+2023-08-07 15:54:58,772 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:58,773 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:54:58,773 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:54:58,773 INFO  MiniKdc -   debug: false
+2023-08-07 15:54:58,773 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:54:58,773 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:54:58,773 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:54:58,774 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:54:58,774 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:54:58,774 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:54:58,774 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:54:58,779 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:54:59,878 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:00,883 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:00,888 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:00,889 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:00,889 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:00,889 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:00,889 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:00,889 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:00,889 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:00,889 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:00,889 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:00,889 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:00,889 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:00,889 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:00,901 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:00,950 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:01,963 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:01,964 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:01,964 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:01,964 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:01,964 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:01,964 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:01,964 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:01,964 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:01,964 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:01,964 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:01,965 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:01,965 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:01,965 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:01,970 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:01,978 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:02,982 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:02,984 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:02,984 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:02,985 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:02,985 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:02,985 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:02,986 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:02,986 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:02,986 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:02,987 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:02,987 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:02,987 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:02,988 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:03,003 INFO  MiniKdc - MiniKdc started.
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:55:03,030 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:55:03,030 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:55:03,038 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403903037,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:55:03,045 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:03,049 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:03,050 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@5ee2e5fc{/foo,null,AVAILABLE}
+2023-08-07 15:55:03,056 INFO  AbstractConnector - Started ServerConnector@731c2d10{HTTP/1.1, (http/1.1)}{localhost:55792}
+2023-08-07 15:55:03,057 INFO  Server - Started @13508ms
+Running embedded servlet container at: http://localhost:55792
+2023-08-07 15:55:03,071 INFO  TgsRequest - TGS_REQ ISSUE: authtime 1691403903070,client@EXAMPLE.COM for HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:03,087 INFO  AbstractConnector - Stopped ServerConnector@731c2d10{HTTP/1.1, (http/1.1)}{localhost:55792}
+2023-08-07 15:55:03,088 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@5ee2e5fc{/foo,null,STOPPED}
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:55:03,090 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:04,093 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:04,096 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:04,096 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:04,096 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:04,096 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:04,097 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:04,097 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:04,097 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:04,097 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:04,097 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:04,097 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:04,097 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:04,098 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:04,108 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:04,114 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:04,119 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@6f81b518{/foo,null,AVAILABLE}
+2023-08-07 15:55:04,126 INFO  AbstractConnector - Started ServerConnector@5e407f37{HTTP/1.1, (http/1.1)}{localhost:55799}
+2023-08-07 15:55:04,126 INFO  Server - Started @14578ms
+Running embedded servlet container at: http://localhost:55799
+2023-08-07 15:55:04,140 INFO  AbstractConnector - Stopped ServerConnector@5e407f37{HTTP/1.1, (http/1.1)}{localhost:55799}
+2023-08-07 15:55:04,140 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@6f81b518{/foo,null,STOPPED}
+2023-08-07 15:55:04,142 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:05,158 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:05,160 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:05,161 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:05,161 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:05,161 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:05,161 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:05,162 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:05,162 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:05,162 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:05,162 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:05,162 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:05,163 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:05,163 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:05,177 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:05,188 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:05,194 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@ac2bf3f{/foo,null,AVAILABLE}
+2023-08-07 15:55:05,203 INFO  AbstractConnector - Started ServerConnector@1536c2f2{HTTP/1.1, (http/1.1)}{localhost:55804}
+2023-08-07 15:55:05,203 INFO  Server - Started @15655ms
+Running embedded servlet container at: http://localhost:55804
+2023-08-07 15:55:05,217 INFO  AbstractConnector - Stopped ServerConnector@1536c2f2{HTTP/1.1, (http/1.1)}{localhost:55804}
+2023-08-07 15:55:05,218 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@ac2bf3f{/foo,null,STOPPED}
+2023-08-07 15:55:05,219 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:06,226 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:06,227 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:06,227 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:06,227 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:06,227 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:06,227 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:06,227 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:06,227 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:06,228 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:06,228 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:06,228 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:06,228 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:06,228 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:06,232 INFO  MiniKdc - MiniKdc started.
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:55:06,246 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:55:06,246 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:55:06,254 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403906254,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:55:06,258 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:06,261 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:06,262 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@3f201f51{/foo,null,AVAILABLE}
+2023-08-07 15:55:06,267 INFO  AbstractConnector - Started ServerConnector@7c5711f3{HTTP/1.1, (http/1.1)}{localhost:55810}
+2023-08-07 15:55:06,267 INFO  Server - Started @16719ms
+Running embedded servlet container at: http://localhost:55810
+2023-08-07 15:55:06,301 ERROR KdcRequest - Principal: HTTP/kubernetes.docker.internal@EXAMPLE.COM is not known
+2023-08-07 15:55:06,306 ERROR KdcRequest - Principal: HTTP/kubernetes.docker.internal@EXAMPLE.COM is not known
+2023-08-07 15:55:06,307 WARN  HttpAuthenticator - NEGOTIATE authentication error: No valid credentials provided (Mechanism level: No valid credentials provided (Mechanism level: Server not found in Kerberos database (7) - Server not found in Kerberos database))
+2023-08-07 15:55:06,311 INFO  AbstractConnector - Stopped ServerConnector@7c5711f3{HTTP/1.1, (http/1.1)}{localhost:55810}
+2023-08-07 15:55:06,311 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@3f201f51{/foo,null,STOPPED}
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:55:06,313 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:07,323 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:07,325 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:07,325 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:07,325 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:07,325 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:07,325 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:07,325 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:07,325 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:07,325 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:07,325 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:07,325 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:07,325 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:07,325 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:07,330 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:07,338 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:08,339 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:08,341 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:08,341 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:08,341 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:08,341 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:08,341 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:08,341 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:08,341 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:08,341 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:08,341 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:08,341 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:08,342 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:08,342 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:08,355 INFO  MiniKdc - MiniKdc started.
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:55:08,382 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:55:08,383 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:55:08,395 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403908394,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:55:08,398 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:08,401 INFO  MultiSchemeAuthenticationHandler - multi-scheme-auth-handler.schemes : negotiate
+2023-08-07 15:55:08,401 INFO  MultiSchemeAuthenticationHandler - multi-scheme-auth-handler.schemes.negotiate.handler : kerberos
+2023-08-07 15:55:08,401 INFO  MultiSchemeAuthenticationHandler - kerberos.principal : HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:08,402 INFO  MultiSchemeAuthenticationHandler - kerberos.keytab : D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504
+2023-08-07 15:55:08,402 INFO  MultiSchemeAuthenticationHandler - type : multi-scheme
+2023-08-07 15:55:08,402 INFO  MultiSchemeAuthenticationHandler - kerberos.name.rules : RULE:[1:$1@$0](.*@EXAMPLE.COM)s/@.*//
+
+2023-08-07 15:55:08,402 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\f9bb76e1-fc3e-4300-8e79-9f9d5bcd3504, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:08,402 INFO  MultiSchemeAuthenticationHandler - Successfully initialized Authentication handler of type org.apache.hadoop.security.authentication.server.KerberosAuthenticationHandler
+2023-08-07 15:55:08,403 INFO  MultiSchemeAuthenticationHandler - Successfully initialized MultiSchemeAuthenticationHandler
+2023-08-07 15:55:08,403 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@3d4935a0{/foo,null,AVAILABLE}
+2023-08-07 15:55:08,409 INFO  AbstractConnector - Started ServerConnector@2575cf6c{HTTP/1.1, (http/1.1)}{localhost:55820}
+2023-08-07 15:55:08,409 INFO  Server - Started @18860ms
+Running embedded servlet container at: http://localhost:55820
+2023-08-07 15:55:08,423 INFO  TgsRequest - TGS_REQ ISSUE: authtime 1691403908422,client@EXAMPLE.COM for HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:08,438 INFO  AbstractConnector - Stopped ServerConnector@2575cf6c{HTTP/1.1, (http/1.1)}{localhost:55820}
+2023-08-07 15:55:08,439 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@3d4935a0{/foo,null,STOPPED}
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:55:08,441 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:09,444 INFO  MiniKdc - MiniKdc stopped.

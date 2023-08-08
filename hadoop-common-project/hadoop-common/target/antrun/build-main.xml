@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <condition else="false" property="skip.platformToolsetDetection" value="true">
+    <isset property="use.platformToolsetVersion"/>
+  </condition>
+  <condition else="true" property="skip.platformToolsetDetection.negated" value="false">
+    <isset property="use.platformToolsetVersion"/>
+  </condition>
+  <echo>Skip platform toolset version detection = ${skip.platformToolsetDetection}</echo>
+  <copy file="src/main/resources/core-default.xml" todir="src/site/resources"/>
+  <copy file="src/main/xsl/configuration.xsl" todir="src/site/resources"/>
+</target>
+</project>

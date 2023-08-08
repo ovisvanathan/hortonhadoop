@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.security.authentication.server.TestAltKerberosAuthenticationHandler
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.63 s - in org.apache.hadoop.security.authentication.server.TestAltKerberosAuthenticationHandler

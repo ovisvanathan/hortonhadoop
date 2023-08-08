@@ -1,0 +1,229 @@
+2023-08-07 15:55:58,213 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:58,214 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:58,219 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:58,219 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:58,219 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:58,219 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:58,219 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:58,219 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:58,220 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:58,220 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:58,220 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:58,220 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:58,549 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:58,594 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:59,871 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:00,884 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:00,888 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:00,888 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:00,888 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:00,888 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:00,888 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:00,888 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:00,889 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:00,889 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:00,889 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:00,889 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:00,889 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:00,889 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:00,898 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:00,912 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+2023-08-07 15:56:01,058 INFO  KdcRequest - The preauth data is empty.
+2023-08-07 15:56:01,063 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+2023-08-07 15:56:01,103 INFO  AsRequest - AS_REQ ISSUE: authtime 1691403961100,client@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-07 15:56:01,165 INFO  TgsRequest - TGS_REQ ISSUE: authtime 1691403961164,client@EXAMPLE.COM for HTTP/localhost@EXAMPLE.COM
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2023-08-07 15:56:01,214 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:02,219 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:02,224 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:02,225 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:02,225 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:02,225 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:02,226 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:02,226 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:02,226 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:02,227 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:02,227 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:02,228 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:02,228 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:02,228 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:02,242 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:02,252 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:02,256 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:03,272 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:03,274 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:03,275 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:03,275 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:03,275 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:03,275 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:03,275 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:03,276 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:03,276 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:03,276 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:03,276 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:03,278 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:03,278 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:03,284 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:03,289 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:03,290 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:04,296 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:04,298 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:04,298 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:04,298 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:04,298 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:04,298 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:04,298 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:04,298 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:04,298 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:04,298 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:04,299 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:04,299 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:04,299 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:04,308 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:04,318 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:04,320 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:04,322 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:05,326 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:05,328 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:05,328 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:05,328 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:05,328 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:05,328 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:05,328 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:05,328 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:05,328 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:05,328 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:05,328 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:05,328 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:05,329 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:05,341 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:05,357 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:05,361 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:05,363 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:06,379 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:06,381 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:06,381 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:06,381 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:06,381 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:06,381 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:06,381 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:06,381 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:06,382 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:06,382 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:06,382 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:06,382 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:06,382 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:06,387 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:06,391 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:06,396 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:07,404 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:07,406 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:07,407 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:07,407 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:07,407 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:07,407 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:07,407 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:07,407 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:07,407 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:07,407 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:07,407 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:07,408 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:07,408 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:07,412 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:07,416 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:07,418 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:08,422 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:08,426 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:08,426 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:08,426 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:08,426 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:08,427 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:08,427 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:08,427 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:08,427 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:08,428 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:08,428 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:08,428 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:08,428 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:08,448 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:08,455 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:08,456 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:08,456 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:09,468 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:09,470 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:09,470 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:09,470 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:09,470 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:09,470 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:09,470 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:09,471 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:09,471 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:09,471 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:09,471 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:09,471 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:09,471 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:09,479 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:09,485 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:09,489 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:10,492 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:10,494 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:10,494 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:10,494 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:10,494 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:10,494 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:10,494 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:10,494 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:10,494 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:10,495 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:10,495 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:10,495 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:10,495 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:10,499 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:10,503 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:10,515 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/host2@EXAMPLE.COM
+2023-08-07 15:56:10,515 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/host1@EXAMPLE.COM
+2023-08-07 15:56:10,517 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:11,524 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:11,526 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:11,526 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:11,526 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:11,526 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:11,526 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:11,526 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:11,527 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:11,527 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:11,527 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:11,527 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:11,527 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:11,527 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:11,532 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:11,535 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:11,537 WARN  KerberosAuthenticationHandler - 'Authorization' does not start with 'Negotiate' :  invalid
+2023-08-07 15:56:11,538 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:12,553 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:56:12,555 INFO  MiniKdc - Configuration:
+2023-08-07 15:56:12,555 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:12,555 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:56:12,555 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:56:12,555 INFO  MiniKdc -   debug: false
+2023-08-07 15:56:12,555 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:56:12,556 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:56:12,556 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:56:12,557 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:56:12,557 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:56:12,558 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:56:12,558 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:56:12,566 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:56:12,570 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\e4d6a57d-0332-49da-a2e8-acefe20702df, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:56:12,575 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:56:13,588 INFO  MiniKdc - MiniKdc stopped.

@@ -1,0 +1,253 @@
+2023-08-07 15:55:38,243 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:38,245 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:38,248 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:38,248 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:38,248 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:38,248 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:38,248 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:38,248 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:38,248 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:38,248 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:38,249 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:38,249 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:38,521 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:39,475 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:40,651 INFO  JWTRedirectAuthenticationHandler - jowt cookie has been found and is being processed
+2023-08-07 15:55:40,667 INFO  JWTRedirectAuthenticationHandler - USERNAME: bob
+2023-08-07 15:55:40,671 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:41,686 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:41,694 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:41,695 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:41,695 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:41,696 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:41,696 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:41,696 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:41,697 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:41,697 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:41,697 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:41,698 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:41,698 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:41,698 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:41,717 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:42,040 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:42,044 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:43,059 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:43,064 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:43,064 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:43,065 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:43,066 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:43,068 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:43,068 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:43,069 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:43,072 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:43,073 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:43,073 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:43,075 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:43,076 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:43,087 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:43,607 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:43,613 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:43,613 WARN  JWTRedirectAuthenticationHandler - JWT audience validation failed.
+2023-08-07 15:55:43,614 WARN  JWTRedirectAuthenticationHandler - Audience validation failed.
+2023-08-07 15:55:43,614 WARN  JWTRedirectAuthenticationHandler - jwtToken failed validation: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2MyaWQuY29tIiwic3ViIjoiYm9iIiwiYXVkIjoiYmFyIiwiZXhwIjoxNjkxNDAzOTQ4LCJpYXQiOjE2OTE0MDM5NDMsInNjb3BlIjoib3BlbmlkIn0.iwm7y6utbi_LIFriYQ57M5xdFCXGaq6y9FBn6DkOnZptx1BZvjg3ChmDdZXZLC7iQ8EKhYLl4povOiD9mP1P5rjacU8LrRmUvIy1sFvzhXGUaCtGYJ3Ue-6M7-hfJnnoZGX8cp-pSH8Uq2jPEtNGS96Mx3-J31nD_UPVfxsk6InQsft7ecKCQa5yGEsRvyOWxYSpGay4FCZ2qEmOi_rZuwAhpTP9jaiTzRPqeSSU5m1MUF9gbrZZsamVqiNKfpSblR66jFYZZRxbT1BULJ8HlVMxQCocJB9jac_HkEWOSO_l9w1q-RmLg6CsatdFo3IYEPYaeIEq4n5tWhLaWtz8vw
+2023-08-07 15:55:43,614 INFO  JWTRedirectAuthenticationHandler - token validation failed - sending redirect to: https://localhost:8443/authserver?originalUrl=https://localhost:8888/resource
+2023-08-07 15:55:43,625 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:44,639 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:44,640 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:44,641 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:44,641 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:44,641 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:44,641 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:44,641 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:44,641 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:44,641 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:44,642 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:44,642 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:44,642 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:44,642 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:44,647 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:44,832 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:44,838 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:44,839 WARN  JWTRedirectAuthenticationHandler - JWT expiration date validation failed.
+2023-08-07 15:55:44,839 INFO  JWTRedirectAuthenticationHandler - Expiration validation failed.
+2023-08-07 15:55:44,839 WARN  JWTRedirectAuthenticationHandler - jwtToken failed validation: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2MyaWQuY29tIiwic3ViIjoiYm9iIiwiYXVkIjoiYmFyIiwiZXhwIjoxNjkxNDAzOTQzLCJpYXQiOjE2OTE0MDM5NDQsInNjb3BlIjoib3BlbmlkIn0.FgdaPFFG8flWgFqVK1QypwlHS1MAIM9hRR5riBkmNyXPP_C2AYFdqpN6ZgFRYziNry3_o-3WRDl4oyPgsVJ4iZXw3xF9NVyStwUSb9sSdhuUkN4W6L84qv5bBy-JzaiagkKT97hZDZcZjuHkQvPzzxYdVBo2tyO8FywUsEOe52IHYZGgDtQ30F7XGZOlv7wmVy2xeCPZapdAAdXWF0DUVe04hZwALFG16To7Qjs3i4UGCyVhG-Uu7xMf8utSaIn_J-Yp461nsCgYEP4c6ldlP-Ny00u9xytGFTkoV-LLRgC6etohGEtyC2Ja9xoo5f_eyjrYk7Rc0xf_Eptnz1bhOg
+2023-08-07 15:55:44,839 INFO  JWTRedirectAuthenticationHandler - token validation failed - sending redirect to: https://localhost:8443/authserver?originalUrl=https://localhost:8888/resource
+2023-08-07 15:55:44,841 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:45,844 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:45,845 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:45,845 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:45,845 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:45,845 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:45,846 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:45,846 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:45,846 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:45,846 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:45,846 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:45,846 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:45,847 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:45,847 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:45,853 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:46,011 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:46,013 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:47,016 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:47,018 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:47,019 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:47,019 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:47,019 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:47,019 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:47,019 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:47,020 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:47,020 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:47,020 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:47,020 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:47,020 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:47,021 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:47,031 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:47,204 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:47,211 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:47,212 INFO  JWTRedirectAuthenticationHandler - USERNAME: bob
+2023-08-07 15:55:47,213 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:48,229 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:48,234 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:48,235 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:48,235 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:48,235 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:48,236 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:48,236 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:48,236 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:48,237 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:48,237 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:48,237 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:48,237 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:48,238 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:48,256 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:48,550 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:48,559 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:48,561 INFO  JWTRedirectAuthenticationHandler - USERNAME: alice
+2023-08-07 15:55:48,561 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:49,573 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:49,576 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:49,576 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:49,576 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:49,576 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:49,577 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:49,577 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:49,577 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:49,577 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:49,577 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:49,578 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:49,578 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:49,578 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:49,593 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:50,132 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:50,139 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:50,141 WARN  JWTRedirectAuthenticationHandler - Unable to parse the JWT token
+java.text.ParseException: Invalid JWS header: Invalid JSON: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.nimbusds.jose.JWSObject.<init>(JWSObject.java:167)
+	at com.nimbusds.jose.JWSObject.<init>(JWSObject.java:141)
+	at com.nimbusds.jwt.SignedJWT.<init>(SignedJWT.java:83)
+	at com.nimbusds.jwt.SignedJWT.parse(SignedJWT.java:136)
+	at org.apache.hadoop.security.authentication.server.JWTRedirectAuthenticationHandler.alternateAuthenticate(JWTRedirectAuthenticationHandler.java:166)
+	at org.apache.hadoop.security.authentication.server.TestJWTRedirectAuthenticationHandler.testUnableToParseJWT(TestJWTRedirectAuthenticationHandler.java:178)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2023-08-07 15:55:50,144 INFO  JWTRedirectAuthenticationHandler - token validation failed - sending redirect to: https://localhost:8443/authserver?originalUrl=https://localhost:8888/resource
+2023-08-07 15:55:50,145 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:51,158 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:51,159 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:51,160 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:51,160 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:51,160 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:51,160 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:51,160 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:51,160 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:51,160 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:51,161 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:51,161 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:51,161 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:51,161 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:51,169 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:51,653 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:51,658 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:51,659 WARN  JWTRedirectAuthenticationHandler - JWT signature verification failed.
+2023-08-07 15:55:51,659 WARN  JWTRedirectAuthenticationHandler - Signature could not be verified
+2023-08-07 15:55:51,659 WARN  JWTRedirectAuthenticationHandler - jwtToken failed validation: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2MyaWQuY29tIiwic3ViIjoiYm9iIiwiYXVkIjoiYmFyIiwiZXhwIjoxNjkxNDAzOTU2LCJpYXQiOjE2OTE0MDM5NTEsInNjb3BlIjoib3BlbmlkIn0.bhuFj4cFiRUDhUTltk7A7rWwV_qIqjIP9xgjsPgS2mE4ech66D13rZDybXFBFNETVkczEj2tPf0_ovX3KGL9T9rhaJ3M2gcr4Kh3RMVvBnVEYiEAwLbDQiDfhal_83SDW95nfoMGPsq1q-VcBtr8E9x8LbA5GYr6sYUS38qhaDB5MAtMpxsngcWGt89VLrJ-9jwQhfsYsFEkQtuWcR7GBGjJCadB0FC16CDMm-zFUbMIjc-0EUtudXKq9VbPhSpBeIihft-sAR8WE_9VL8S4npgwAlv-6S0teDc9sTBOQMq-_K-wYcGGiBNCE0JZsPNdgiXcKQ7KsCJLzMzm9lSAQw
+2023-08-07 15:55:51,660 INFO  JWTRedirectAuthenticationHandler - token validation failed - sending redirect to: https://localhost:8443/authserver?originalUrl=https://localhost:8888/resource
+2023-08-07 15:55:51,661 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:52,678 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:52,679 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:52,679 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:52,679 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:52,679 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:52,679 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:52,679 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:52,680 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:52,680 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:52,680 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:52,680 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:52,680 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:52,680 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:52,686 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:52,882 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:52,885 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:53,890 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:53,891 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:53,891 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:53,891 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:53,891 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:53,891 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:53,893 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:53,893 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:53,893 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:53,893 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:53,893 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:53,894 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:53,894 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:53,900 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:54,257 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:54,257 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:55,260 INFO  MiniKdc - MiniKdc stopped.
+2023-08-07 15:55:55,261 INFO  MiniKdc - Configuration:
+2023-08-07 15:55:55,261 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:55,261 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2023-08-07 15:55:55,261 INFO  MiniKdc -   instance: DefaultKrbServer
+2023-08-07 15:55:55,261 INFO  MiniKdc -   debug: false
+2023-08-07 15:55:55,261 INFO  MiniKdc -   kdc.bind.address: localhost
+2023-08-07 15:55:55,262 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2023-08-07 15:55:55,262 INFO  MiniKdc -   transport: TCP
+2023-08-07 15:55:55,262 INFO  MiniKdc -   org.name: EXAMPLE
+2023-08-07 15:55:55,262 INFO  MiniKdc -   org.domain: COM
+2023-08-07 15:55:55,262 INFO  MiniKdc -   kdc.port: 0
+2023-08-07 15:55:55,262 INFO  MiniKdc - ---------------------------------------------------------------
+2023-08-07 15:55:55,267 INFO  MiniKdc - MiniKdc started.
+2023-08-07 15:55:55,504 INFO  KerberosAuthenticationHandler - Using keytab D:\java\projects\hadoop\hadoop-common-project\hadoop-auth\target\5cfb22f2-0ec0-48d2-ba0b-f67e02de493b, for principal HTTP/localhost@EXAMPLE.COM
+2023-08-07 15:55:55,510 INFO  JWTRedirectAuthenticationHandler - hadoop-jwt cookie has been found and is being processed
+2023-08-07 15:55:55,511 INFO  JWTRedirectAuthenticationHandler - USERNAME: bob
+2023-08-07 15:55:55,512 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+2023-08-07 15:55:56,522 INFO  MiniKdc - MiniKdc stopped.

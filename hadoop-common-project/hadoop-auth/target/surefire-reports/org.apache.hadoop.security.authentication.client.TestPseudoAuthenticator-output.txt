@@ -1,0 +1,43 @@
+2023-08-07 15:55:11,086 INFO  log - Logging initialized @888ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-08-07 15:55:11,235 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:11,435 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@4c39bec8{/foo,null,AVAILABLE}
+2023-08-07 15:55:11,524 INFO  AbstractConnector - Started ServerConnector@479d31f3{HTTP/1.1, (http/1.1)}{localhost:55824}
+2023-08-07 15:55:11,524 INFO  Server - Started @1331ms
+Running embedded servlet container at: http://localhost:55824
+2023-08-07 15:55:11,674 INFO  AbstractConnector - Stopped ServerConnector@479d31f3{HTTP/1.1, (http/1.1)}{localhost:55824}
+2023-08-07 15:55:11,675 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@4c39bec8{/foo,null,STOPPED}
+2023-08-07 15:55:11,682 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:11,686 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@71238fc2{/foo,null,AVAILABLE}
+2023-08-07 15:55:11,692 INFO  AbstractConnector - Started ServerConnector@483f6d77{HTTP/1.1, (http/1.1)}{localhost:55826}
+2023-08-07 15:55:11,692 INFO  Server - Started @1499ms
+Running embedded servlet container at: http://localhost:55826
+2023-08-07 15:55:11,735 INFO  AbstractConnector - Stopped ServerConnector@483f6d77{HTTP/1.1, (http/1.1)}{localhost:55826}
+2023-08-07 15:55:11,736 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@71238fc2{/foo,null,STOPPED}
+2023-08-07 15:55:11,740 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:11,744 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@7e7be63f{/foo,null,AVAILABLE}
+2023-08-07 15:55:11,749 INFO  AbstractConnector - Started ServerConnector@169e6180{HTTP/1.1, (http/1.1)}{localhost:55828}
+2023-08-07 15:55:11,749 INFO  Server - Started @1556ms
+Running embedded servlet container at: http://localhost:55828
+2023-08-07 15:55:11,754 INFO  AbstractConnector - Stopped ServerConnector@169e6180{HTTP/1.1, (http/1.1)}{localhost:55828}
+2023-08-07 15:55:11,755 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@7e7be63f{/foo,null,STOPPED}
+2023-08-07 15:55:11,757 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:11,761 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@74751b3{/foo,null,AVAILABLE}
+2023-08-07 15:55:11,767 INFO  AbstractConnector - Started ServerConnector@1af2d44a{HTTP/1.1, (http/1.1)}{localhost:55830}
+2023-08-07 15:55:11,767 INFO  Server - Started @1575ms
+Running embedded servlet container at: http://localhost:55830
+2023-08-07 15:55:11,782 INFO  AbstractConnector - Stopped ServerConnector@1af2d44a{HTTP/1.1, (http/1.1)}{localhost:55830}
+2023-08-07 15:55:11,782 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@74751b3{/foo,null,STOPPED}
+2023-08-07 15:55:11,785 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:11,789 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@7c711375{/foo,null,AVAILABLE}
+2023-08-07 15:55:11,794 INFO  AbstractConnector - Started ServerConnector@209da20d{HTTP/1.1, (http/1.1)}{localhost:55832}
+2023-08-07 15:55:11,794 INFO  Server - Started @1601ms
+Running embedded servlet container at: http://localhost:55832
+2023-08-07 15:55:11,804 INFO  AbstractConnector - Stopped ServerConnector@209da20d{HTTP/1.1, (http/1.1)}{localhost:55832}
+2023-08-07 15:55:11,804 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@7c711375{/foo,null,STOPPED}
+2023-08-07 15:55:11,808 INFO  Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 19.0.1+10-21
+2023-08-07 15:55:11,811 INFO  ContextHandler - Started o.e.j.s.ServletContextHandler@729d991e{/foo,null,AVAILABLE}
+2023-08-07 15:55:11,817 INFO  AbstractConnector - Started ServerConnector@2805d709{HTTP/1.1, (http/1.1)}{localhost:55834}
+2023-08-07 15:55:11,817 INFO  Server - Started @1624ms
+Running embedded servlet container at: http://localhost:55834
+2023-08-07 15:55:11,827 INFO  AbstractConnector - Stopped ServerConnector@2805d709{HTTP/1.1, (http/1.1)}{localhost:55834}
+2023-08-07 15:55:11,828 INFO  ContextHandler - Stopped o.e.j.s.ServletContextHandler@729d991e{/foo,null,STOPPED}

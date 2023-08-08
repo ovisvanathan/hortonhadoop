@@ -1,0 +1,11 @@
+2023-08-07 15:55:34,869 WARN  AuthenticationFilter - Unable to initialize FileSignerSecretProvider, falling back to use random secrets. Reason: No secret in signature secret file: C:\Users\Dell\AppData\Local\Temp\test_empty_secret9648504434568293525.txt
+2023-08-07 15:55:34,879 WARN  AuthenticationFilter - AuthenticationToken ignored: org.apache.hadoop.security.authentication.util.SignerException: Invalid signed text: foo
+2023-08-07 15:55:34,895 WARN  AuthenticationFilter - AuthenticationToken ignored: AuthenticationToken expired
+2023-08-07 15:55:34,902 WARN  AuthenticationFilter - AuthenticationToken ignored: AuthenticationToken expired
+2023-08-07 15:55:34,932 WARN  AuthenticationFilter - AuthenticationToken ignored: AuthenticationToken expired
+2023-08-07 15:55:34,947 WARN  AuthenticationFilter - AuthenticationToken ignored: Invalid AuthenticationToken type
+2023-08-07 15:55:34,958 WARN  AuthenticationFilter - AuthenticationToken ignored: Invalid AuthenticationToken type
+2023-08-07 15:55:34,962 WARN  AuthenticationFilter - AuthenticationToken ignored: AuthenticationToken expired
+2023-08-07 15:55:34,972 WARN  AuthenticationFilter - AuthenticationToken ignored: Invalid AuthenticationToken type
+2023-08-07 15:55:34,987 WARN  AuthenticationFilter - AuthenticationToken ignored: AuthenticationToken expired
+2023-08-07 15:55:35,015 WARN  AuthenticationFilter - Authentication exception: AUTH FAILED

@@ -1,0 +1,183 @@
+# Created at 2023-08-07T16:12:18.540
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-08-07T16:12:19.725
+Unexpected IOException with stream: 2023-08-07 16:12:19,723 INFO  MiniKdc - MiniKdc stopped.
+
+
+# Created at 2023-08-07T16:12:19.727
+Unexpected IOException: 6,1,org.apache.hadoop.minikdc.TestMiniKdc,testMiniKdcStart(org.apache.hadoop.minikdc.TestMiniKdc),null,null,null
+
+
+# Created at 2023-08-07T16:12:19.729
+Unexpected IOException: 5,1,org.apache.hadoop.minikdc.TestMiniKdc,testKerberosLogin(org.apache.hadoop.minikdc.TestMiniKdc),null,null,null
+
+
+# Created at 2023-08-07T16:12:19.731
+Unexpected IOException with stream: 2023-08-07 16:12:19,731 INFO  MiniKdc - Configuration:
+
+
+# Created at 2023-08-07T16:12:19.733
+Unexpected IOException with stream: 2023-08-07 16:12:19,732 INFO  MiniKdc - ---------------------------------------------------------------
+
+
+# Created at 2023-08-07T16:12:19.734
+Unexpected IOException with stream: 2023-08-07 16:12:19,733 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+
+
+# Created at 2023-08-07T16:12:19.736
+Unexpected IOException with stream: 2023-08-07 16:12:19,735 INFO  MiniKdc -   instance: DefaultKrbServer
+
+
+# Created at 2023-08-07T16:12:19.737
+Unexpected IOException with stream: 2023-08-07 16:12:19,736 INFO  MiniKdc -   debug: false
+
+
+# Created at 2023-08-07T16:12:19.738
+Unexpected IOException with stream: 2023-08-07 16:12:19,738 INFO  MiniKdc -   kdc.bind.address: localhost
+
+
+# Created at 2023-08-07T16:12:19.740
+Unexpected IOException with stream: 2023-08-07 16:12:19,739 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+
+
+# Created at 2023-08-07T16:12:19.740
+Unexpected IOException with stream: 2023-08-07 16:12:19,740 INFO  MiniKdc -   transport: TCP
+
+
+# Created at 2023-08-07T16:12:19.741
+Unexpected IOException with stream: 2023-08-07 16:12:19,741 INFO  MiniKdc -   org.name: EXAMPLE
+
+
+# Created at 2023-08-07T16:12:19.742
+Unexpected IOException with stream: 2023-08-07 16:12:19,741 INFO  MiniKdc -   org.domain: COM
+
+
+# Created at 2023-08-07T16:12:19.743
+Unexpected IOException with stream: 2023-08-07 16:12:19,742 INFO  MiniKdc -   kdc.port: 0
+
+
+# Created at 2023-08-07T16:12:19.743
+Unexpected IOException with stream: 2023-08-07 16:12:19,743 INFO  MiniKdc - ---------------------------------------------------------------
+
+
+# Created at 2023-08-07T16:12:19.751
+Unexpected IOException with stream: 2023-08-07 16:12:19,751 INFO  MiniKdc - MiniKdc started.
+
+
+# Created at 2023-08-07T16:12:19.850
+Unexpected IOException with stream: Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-minikdc\target\foo.keytab refreshKrb5Config is true principal is foo tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+
+
+# Created at 2023-08-07T16:12:19.852
+Unexpected IOException with stream: Refreshing Kerberos configuration
+
+
+# Created at 2023-08-07T16:12:19.874
+Unexpected IOException with stream: Acquire TGT from Cache
+
+
+# Created at 2023-08-07T16:12:19.904
+Unexpected IOException with stream: Principal is foo@EXAMPLE.COM
+
+
+# Created at 2023-08-07T16:12:19.905
+Unexpected IOException with stream: null credentials from Ticket Cache
+
+
+# Created at 2023-08-07T16:12:19.981
+Unexpected IOException with stream: 2023-08-07 16:12:19,980 INFO  KdcRequest - The preauth data is empty.
+
+
+# Created at 2023-08-07T16:12:19.992
+Unexpected IOException with stream: 2023-08-07 16:12:19,991 INFO  KdcHandler - KRB error occurred while processing request: Additional pre-authentication required
+
+
+# Created at 2023-08-07T16:12:20.071
+Unexpected IOException with stream: 2023-08-07 16:12:20,070 INFO  AsRequest - AS_REQ ISSUE: authtime 1691404940067,foo@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+
+
+# Created at 2023-08-07T16:12:20.081
+Unexpected IOException with stream: principal is foo@EXAMPLE.COM
+
+
+# Created at 2023-08-07T16:12:20.082
+Unexpected IOException with stream: Will use keytab
+
+
+# Created at 2023-08-07T16:12:20.086
+Unexpected IOException with stream: Commit Succeeded 
+
+
+
+# Created at 2023-08-07T16:12:20.087
+Unexpected IOException with stream: 		[Krb5LoginModule]: Entering logout
+
+
+# Created at 2023-08-07T16:12:20.089
+Unexpected IOException with stream: 		[Krb5LoginModule]: logged out Subject
+
+
+# Created at 2023-08-07T16:12:20.090
+Unexpected IOException with stream: Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator false KeyTab is D:\java\projects\hadoop\hadoop-common-project\hadoop-minikdc\target\foo.keytab refreshKrb5Config is true principal is foo tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+
+
+# Created at 2023-08-07T16:12:20.091
+Unexpected IOException with stream: Refreshing Kerberos configuration
+
+
+# Created at 2023-08-07T16:12:20.093
+Unexpected IOException with stream: Acquire TGT from Cache
+
+
+# Created at 2023-08-07T16:12:20.095
+Unexpected IOException with stream: Principal is foo@EXAMPLE.COM
+
+
+# Created at 2023-08-07T16:12:20.096
+Unexpected IOException with stream: null credentials from Ticket Cache
+
+
+# Created at 2023-08-07T16:12:20.097
+Unexpected IOException with stream: principal is foo@EXAMPLE.COM
+
+
+# Created at 2023-08-07T16:12:20.098
+Unexpected IOException with stream: Will use keytab
+
+
+# Created at 2023-08-07T16:12:20.098
+Unexpected IOException with stream: Commit Succeeded 
+
+
+
+# Created at 2023-08-07T16:12:20.100
+Unexpected IOException with stream: 		[Krb5LoginModule]: Entering logout
+
+
+# Created at 2023-08-07T16:12:20.100
+Unexpected IOException with stream: 		[Krb5LoginModule]: logged out Subject
+
+
+# Created at 2023-08-07T16:12:20.102
+Unexpected IOException with stream: 2023-08-07 16:12:20,101 INFO  DefaultInternalKdcServerImpl - Default Internal kdc server stopped.
+
+
+# Created at 2023-08-07T16:12:21.106
+Unexpected IOException with stream: 2023-08-07 16:12:21,104 INFO  MiniKdc - MiniKdc stopped.
+
+
+# Created at 2023-08-07T16:12:21.109
+Unexpected IOException: 6,1,org.apache.hadoop.minikdc.TestMiniKdc,testKerberosLogin(org.apache.hadoop.minikdc.TestMiniKdc),null,null,null
+
+
+# Created at 2023-08-07T16:12:21.114
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,org.apache.hadoop.minikdc.TestMiniKdc,null,null,null
+
+
